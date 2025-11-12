@@ -12,7 +12,8 @@ export default function Grid(){
                 {
                     images.map((item)=>(
                         <Card 
-                            key={item.id} 
+                            key={item.id}
+                            id={item.id} 
                             src={item.url}   
                             alt="" 
                             count={count}
