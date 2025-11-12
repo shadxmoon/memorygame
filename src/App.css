@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: "Playpen Sans", cursive;
+}
+
+header {
+    background-color: lavender;
+    padding: 20px 15px;
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+footer {
+    background-color: lavenderblush;
+    padding: 20px 15px;
+}
+.copy-text {
+    color: darkblue;
+    text-align: center;
+}
