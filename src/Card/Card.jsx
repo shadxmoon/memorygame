@@ -16,7 +16,7 @@ export default function Card({src, alt, count, setCount, id}){
     return(
        // <div className={classCard} onClick={handleClick} >
        <div>
-        <Link to='/image' state={{image:id}}>
+        <Link to={`image/${id}`} state={{image:id}}>
             <img 
                 src={src} 
                 alt={alt} 
